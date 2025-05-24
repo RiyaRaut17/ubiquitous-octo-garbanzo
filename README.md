@@ -1,4 +1,16 @@
-include<stdio.h>
+#include<stdio.h>
+
+int main()
+{
+    int num1,num2,sum;
+    printf("\nenter num1\t");
+    scanf("%d",&num1);
+    printf("\nenter num2\t");
+    scanf("%d",&num2);
+    sum=num1+num2;
+    printf("The sum of is %d",sum);
+    return 0;
+}include<stdio.h>
 int main ()
 {
     int a,b,c,sum;
