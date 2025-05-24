@@ -57,3 +57,17 @@ int main() {
 
     return 0;      
 }
+
+#include<stdio.h>
+int main()
+{
+    int number;
+    printf("enter the number\t");
+    scanf("%d",&number);
+    if(number>>3)
+       {
+          printf ("\nnumber is greater            than 3\t");
+       }
+       printf("\nend of the programme");
+    return 0;
+}    
