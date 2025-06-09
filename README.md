@@ -131,3 +131,18 @@ sum=num1+num2;
 printf("The sum of %d and %d is %d", num1, num2, sum);
 return 0;
 }
+
+
+
+
+#include<stdio.h>
+int main()
+{
+int i, num=2, table;
+for(i=1; i<=10; i++)
+{
+ table=num*i;
+ printf("%d \n", table);
+} 
+return 0;
+}
