@@ -1,4 +1,4 @@
-jii#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int i,rem;
@@ -10,7 +10,11 @@ for(i=0; i<=20; i++)
  printf("%d \n", i);
 } 
 return 0;
-}#include<stdio.h>
+}
+
+
+
+#include<stdio.h>
 
 int main()
 {
@@ -41,12 +45,13 @@ int main ()
     printf("sum is %d\n",sum);
     printf("avg is %.2f\n",avg);
     return 0 ;
-
 }
+
 
 #include<stdio.h>
 
-int main() {
+int main() 
+{
     int score;
     printf("\nEnter score of student: ");
     scanf("%d", &score);
@@ -69,6 +74,7 @@ int main() {
 
     return 0;      
 }
+
 
 #include<stdio.h>
 int main()
