@@ -146,3 +146,55 @@ for(i=1; i<=10; i++)
 } 
 return 0;
 }
+
+
+
+#include<stdio.h>
+int main()
+{
+int marks;
+printf("Enter marks:\t");
+scanf("%d",&marks);
+if(marks>=40)
+ {
+   printf("PASS");
+ }
+else  
+ {
+   printf("FAIL");
+ }  
+return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+
+float bs, da, hr, gs;
+
+printf("Enter Basic Salary of Ramesh:\t");
+scanf("%f", & bs);
+
+da = (0.4)*bs;
+printf ("\n The Dearness Allowance is %f:\t",da);
+
+hr = (0.2)*bs;
+printf ("\n The House Rent Allowance is %f:\t",hr);
+
+gs=(bs+da+hr);
+printf (" \n The Cross Salary of Ramesh is %f:\t",gs);
+
+return 0;
+}
+
+
+
+#include<stdio.h>
+
+int main()
+{
+    printf("Hello world!");
+    return 0;
+}
