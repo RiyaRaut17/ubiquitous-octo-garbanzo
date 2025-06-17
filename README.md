@@ -214,3 +214,17 @@ int main() {
     printf("Gross Salary = %.2f\n", gross);
     return 0;
 }
+
+
+
+
+
+#include <stdio.h>
+int main() {
+    int i = 1;
+    do {
+        printf("10 x %d = %d\n", i, 10 * i);
+        i++;
+    } while(i <= 10);
+    return 0;
+}
