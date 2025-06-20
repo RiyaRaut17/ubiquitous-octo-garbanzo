@@ -313,3 +313,24 @@ int main() {
     }
     return 0;
 }
+
+
+
+#include<stdio.h>
+int main()
+{
+   int a,b;
+   printf("enter a\t");
+   scanf("%d",&a);
+   printf("enter b\t");
+   scanf("%d",&b);
+   if(a>b)
+   {
+      printf(" a is greater than b");
+   }
+   else
+   {
+      printf("a is less than b");
+   }
+   return 0;
+}
