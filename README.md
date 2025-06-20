@@ -2,6 +2,28 @@
 
 int main() {
     int i, j;
+    int n = 5; // Size of the pattern (must be odd for symmetry)
+
+    for(i = 1; i <= n; i++) {
+        for(j = 1; j <= n; j++) {
+            // Print star on diagonals only
+            if(j == i || j == (n - i + 1))
+                printf("*");
+            else
+                printf(" ");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int i, j;
     int n = 3; // Controls the height of the middle row
 
     // Top half including middle row
