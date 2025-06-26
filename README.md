@@ -2,6 +2,43 @@
 
 int main() {
     int arr[100], n, i, key;
+
+    // Input size of array
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    // Input array elements
+    printf("Enter %d integers:\n", n);
+    for(i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // Input search key
+    printf("Enter number to search: ");
+    scanf("%d", &key);
+
+    // Linear search without using found variable
+    for(i = 0; i < n; i++) {
+        if(arr[i] == key) {
+            printf("Number found at position %d\n", i + 1);
+            break;
+        }
+    }
+
+    // If loop completed without finding
+    if(i == n) {
+        printf("Number not found in the array.\n");
+    }
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int arr[100], n, i, key;
     int low, high, mid;
 
     // Input size of array
